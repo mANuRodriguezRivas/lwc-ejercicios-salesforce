@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Detalle de Oportunidad">
+        <div class={finalClass}>
+            <div class="info-grid">
+                <div class="item">
+                    <span class="label">Nombre</span>
+                    <span class="value">Oportunidad Demo</span>
+                </div>
+                <div class="item">
+                    <span class="label">Estado</span>
+                    <span class="value status">En Progreso</span>
+                </div>
+                <div class="item">
+                    <span class="label">Importe</span>
+                    <span class="value amount">5000€</span>
+                </div>
+                <div class="item">
+                    <span class="label">Fecha cierre</span>
+                    <span class="value">30/12/2025</span>
+                </div>
+            </div>
+            <lightning-button label="Cambiar modo" onclick={toggleMode}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

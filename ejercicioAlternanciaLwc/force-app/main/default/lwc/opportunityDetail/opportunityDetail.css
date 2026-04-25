@@ -1,0 +1,65 @@
+.container {
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.light {
+    background: linear-gradient(135deg, #ffffff, #f4f6f9);
+    color: #1a1a1a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+    background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+    color: #f1f1f1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 3px;
+}
+
+.value {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.status {
+    color: #1589ee;
+}
+
+.amount {
+    font-size: 1.2rem;
+}
+
+.dark .label {
+    color: #bbb;
+}
+
+.dark .status {
+    color: #4aa3ff;
+}
+
+.container lightning-button {
+    width: 100%;
+}
+
+.container:hover {
+    transform: translateY(-2px);
+}
