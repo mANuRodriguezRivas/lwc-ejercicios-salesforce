@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.time {
+    font-size: 2rem;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.buttons lightning-button {
+    margin: 5px;
+}
