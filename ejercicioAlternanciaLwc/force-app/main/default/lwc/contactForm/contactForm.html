@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Formulario de Contacto">
+        <div class="slds-p-around_medium form-container">
+            <lightning-input label="Nombre" value={name} onchange={handleChange} onblur={validateName} data-field="name" required></lightning-input>
+            <lightning-input type="email" label="Email" value={email} onchange={handleChange} onblur={validateEmail} data-field="email" required></lightning-input>
+            <lightning-textarea label="Mensaje" value={message} onchange={handleChange} onblur={validateMessage} data-field="message" required></lightning-textarea>
+            <lightning-button label="Enviar" variant="brand" onclick={handleSubmit}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

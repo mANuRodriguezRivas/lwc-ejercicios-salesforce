@@ -1,0 +1,25 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+lightning-input,
+lightning-textarea {
+    margin-bottom: 12px;
+}
+
+lightning-button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}

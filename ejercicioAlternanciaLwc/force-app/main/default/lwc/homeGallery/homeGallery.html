@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Galería de Imágenes">
+        <div class="container">
+            <div class="main-image">
+                <img src={selectedImage} alt="imagen principal"/>
+            </div>
+            <div class="thumbnails">
+                <template for:each={images} for:item="img">
+                    <img key={img} src={img} class={imgClass} data-img={img} onclick={selectImage}>
+                </template>
+            </div>
+        </div>
+    </lightning-card>
+</template>
